@@ -25,7 +25,7 @@ public class AuthForm extends BasePage {
 
     public void fillOutForm() {  
         emailField.clear();  
-        emailField.sendKeys("emai");  
+        emailField.sendKeys("email");  
         passwordField.clear();
         passwordField.sendKeys("password"); 
     }
